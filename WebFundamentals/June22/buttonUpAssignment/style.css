@@ -1,0 +1,35 @@
+button {
+  display: block;
+  margin: 10px 0;
+}
+
+#search {
+  width: 150px;
+  border-radius: 20px;
+  height: 30px;
+  border: 2px solid rgb(14, 152, 129);
+  color: rgb(14, 152, 129);
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#plus {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  font-size: 1.5em;
+  background-color: rgb(89, 211, 187);
+  color: white;
+  border: none;
+}
+
+#createAccount {
+  height: 35px;
+  width: 170px;
+  font-size: 1em;
+  background: rgb(85, 133, 255);
+  color: white;
+  font-weight: light;
+  border: 2px solid black;
+  box-shadow: 4px 4px 0px black;
+}

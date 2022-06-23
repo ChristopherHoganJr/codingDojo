@@ -19,6 +19,7 @@ img {
 .container {
   display: flex;
   padding: 15px;
+  margin: 15px;
 }
 
 #top {
@@ -29,7 +30,6 @@ img {
 #mid {
   background-color: #91cb3e;
   justify-content: space-around;
-  margin: 15px 0;
 }
 
 #bot {

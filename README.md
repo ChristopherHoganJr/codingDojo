@@ -6,7 +6,7 @@
 
 **_6/24/2022_**
 
-- Completed User Card [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June24/userCardAssignment)
+- Completed User Card [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June24/userCardAssignment)
 
 **_6/23/2022_**
 

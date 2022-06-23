@@ -1,0 +1,38 @@
+body {
+  background-color: #eee82c;
+}
+
+h1,
+p {
+  text-align: center;
+  color: #19381f;
+}
+
+a {
+  color: #53a548;
+}
+
+img {
+  width: 200px;
+}
+
+.container {
+  display: flex;
+  padding: 15px;
+}
+
+#top {
+  background-color: #53a548;
+  justify-content: space-between;
+}
+
+#mid {
+  background-color: #91cb3e;
+  justify-content: space-around;
+  margin: 15px 0;
+}
+
+#bot {
+  background-color: #4c934c;
+  justify-content: space-between;
+}

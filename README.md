@@ -6,6 +6,11 @@ This is a readme for our first project!
 
 **_6/22/2022_**
 
+- Using CSS to draw flag: [Norway](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June22/norwayFlag) flag.
+- Text Styling [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June22/textStylingAssignment)
+- Completed the Button Up [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June22/buttonUpAssignment)
+- Afternoon [notes](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June22/afternoonLesson)
+- Completed the Plotting Our Blocks [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June22/PlottingOurBlocksAssignment)
 - [notes](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June22/practice) on sizing and grouping with index.html and style.css
 - created practice folder with June 22 [notes](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June22)
 - created folder June22

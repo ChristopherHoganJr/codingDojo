@@ -1,0 +1,22 @@
+.row {
+  display: flex;
+  column-gap: 10px;
+}
+
+.col {
+  flex-grow: 1;
+  background: lightgreen;
+  padding: 15px;
+}
+
+.col-2 {
+  flex-grow: 2;
+  background: lightblue;
+  padding: 15px;
+}
+
+.col-3 {
+  flex-grow: 3;
+  background: lightgoldenrodyellow;
+  padding: 15px;
+}

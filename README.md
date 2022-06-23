@@ -4,6 +4,16 @@
 
 ## Web Fundamentals
 
+**_6/23/2022_**
+
+- Completed FLEX-ible Columns [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June23/FLEX-ibleColumnsAssignment)
+- Completed Flex Navbar [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June23/FlexNavbarAssignment)
+- Completed Flex our Blocks [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June23/FlexOurBlocksAssignment)
+- Completed GitHub Blocks [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June23/GitHubBlocksAssignment)
+- Afternoon [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June23/afternoon-assignment)
+- Introduction to [flexbox](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June23/flexIntro)
+- Morning [algo](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June23/morningAlgo) practice
+
 **_6/22/2022_**
 
 - Using CSS to draw flag: [Norway](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June22/norwayFlag) flag.

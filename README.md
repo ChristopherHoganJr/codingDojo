@@ -1,8 +1,10 @@
-# Hello World
+# Coding Dojo Journey
 
 This is a readme for our first project!
 
 ###### Timeline
+
+## Web Fundamentals
 
 **_6/22/2022_**
 

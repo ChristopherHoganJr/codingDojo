@@ -6,6 +6,8 @@
 
 **_6/24/2022_**
 
+- Morning [Notes](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June24/morningNotes)
+- Completed Profile Page [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June24/ProfilePageAssignment)
 - Completed User Card [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June24/userCardAssignment)
 
 **_6/23/2022_**

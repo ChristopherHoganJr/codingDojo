@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#square {
+  position: relative;
+  /* top, bottom, left, right */
+  left: 200px;
+  top: 200px;
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  background: darkslateblue;
+}
+
+#smallAbsolute {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background: white;
+  border: 2px solid black;
+}
+
+#fixedSquare {
+  position: fixed;
+  width: 300px;
+  height: 300px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: lightgrey;
+  border: 3px solid black;
+}
+
+#absoluteSquare {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: green;
+  border: 2px solid black;
+  bottom: 0;
+  right: 0;
+}
+
+#stickyHeader {
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  position: sticky;
+  top: 0;
+}

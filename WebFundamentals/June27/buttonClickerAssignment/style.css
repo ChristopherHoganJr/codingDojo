@@ -20,6 +20,7 @@ nav > h1 {
 nav > input {
   width: 50%;
   height: 20px;
+  padding: 10px 5px;
 }
 
 .btn {
@@ -90,6 +91,7 @@ main {
   align-items: center;
   height: 100%;
   width: 80%;
+  padding: 0px 30px;
 }
 
 .add-container {

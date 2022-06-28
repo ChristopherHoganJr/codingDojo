@@ -1,17 +1,29 @@
 let connectionRequest = document.querySelectorAll(".icon");
-let connectionsBadge = document.querySelector(".badge");
+let connectionsBadge = document.querySelectorAll(".badge");
+let acceptIcon = document.querySelectorAll('img[alt="accept"]');
+let profileName = document.querySelectorAll("h1");
+let settingsSelector = document.querySelectorAll("a");
 
-connectionsBadge.innerHTML = connectionRequest.length;
-console.log(
-  (connectionsBadge.innerText = connectionRequest.parentElement.length / 2)
-);
+connectionsBadge[0].innerHTML = connectionRequest.length / 2;
+connectionsBadge[1].innerHTML = 418;
+// console.log(
+//   (connectionsBadge.innerText = connectionRequest.parentElement.length / 2)
+// );
 
-connectionRequest.forEach((e, idx) => {
+connectionRequest.forEach((e) => {
   e.addEventListener("click", () => {
     e.parentElement.parentElement.remove();
-    console.log(connectionRequest);
+    connectionsBadge[0].innerHTML--;
   });
 });
 
-console.log(connectionsBadge.innerHTML);
-console.log(connectionRequest);
+acceptIcon.forEach((icon) => {
+  icon.addEventListener("click", () => {
+    connectionsBadge[1].innerHTML++;
+  });
+});
+
+settingsSelector[3].addEventListener("click", () => {
+  let newName = prompt("What is your name?: ");
+  profileName[1].innerText = newName;
+});

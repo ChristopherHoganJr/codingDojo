@@ -4,6 +4,16 @@
 
 ## Web Fundamentals
 
+**_6/27/2022_**
+
+- Making Connections [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/makingConnections)
+- Video Preview [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/video-preview)
+- Liking Likes [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/likingLikes)
+- FizzBuzz [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/fizzbuzz)
+- Dojo Pizzeria [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/dojoPizzeria)
+- Button Clicker [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/buttonClickerAssignment)
+- [Loop](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/LoopChallenges)
+
 **_6/24/2022_**
 
 - Morning [Notes](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June24/morningNotes)

@@ -4,28 +4,33 @@
 
 ## Web Fundamentals
 
+**_6/28/2022_**
+
+- Dojo Weather [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June28/dojoWeather)
+- Morning Algo [practice](https://github.com/ChristopherHoganJr/codingDojo/blob/main/WebFundamentals/June28/morningAlgo.js)
+
 **_6/27/2022_**
 
-- Making Connections [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/makingConnections)
-- Video Preview [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/video-preview)
-- Liking Likes [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/likingLikes)
-- FizzBuzz [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/fizzbuzz)
-- Dojo Pizzeria [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/dojoPizzeria)
-- Button Clicker [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/buttonClickerAssignment)
+- Making Connections [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/makingConnections)
+- Video Preview [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/video-preview)
+- Liking Likes [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/likingLikes)
+- FizzBuzz [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/fizzbuzz)
+- Dojo Pizzeria [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/dojoPizzeria)
+- Button Clicker [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/buttonClickerAssignment)
 - [Loop](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June27/LoopChallenges)
 
 **_6/24/2022_**
 
-- Morning [Notes](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June24/morningNotes)
-- Completed Profile Page [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June24/ProfilePageAssignment)
-- Completed User Card [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June24/userCardAssignment)
+- Morning [notes](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June24/morningNotes)
+- Completed Profile Page [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June24/ProfilePageAssignment)
+- Completed User Card [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June24/userCardAssignment)
 
 **_6/23/2022_**
 
-- Completed FLEX-ible Columns [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June23/FLEX-ibleColumnsAssignment)
-- Completed Flex Navbar [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June23/FlexNavbarAssignment)
-- Completed Flex our Blocks [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June23/FlexOurBlocksAssignment)
-- Completed GitHub Blocks [Assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June23/GitHubBlocksAssignment)
+- Completed FLEX-ible Columns [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June23/FLEX-ibleColumnsAssignment)
+- Completed Flex Navbar [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June23/FlexNavbarAssignment)
+- Completed Flex our Blocks [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June23/FlexOurBlocksAssignment)
+- Completed GitHub Blocks [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June23/GitHubBlocksAssignment)
 - Afternoon [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June23/afternoon-assignment)
 - Introduction to [flexbox](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June23/flexIntro)
 - Morning [algo](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June23/morningAlgo) practice

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Forcast</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <h1>DojoWeather</h1>
+        <ul>
+          <li><a class="nav-links" href="#">Burbank</a></li>
+          <li><a class="nav-links" href="#">Chicago</a></li>
+          <li><a class="nav-links" href="#">Dallas</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div class="location-container">
+        <h2>San Jose</h2>
+        <ul>
+          <li>Show temperature in</li>
+          <li>
+            <select id="tempSelect" name="temp">
+              <option value="celcius">°C</option>
+              <option value="fahrenheit">°F</option>
+            </select>
+          </li>
+        </ul>
+      </div>
+      <div class="temp-container">
+        <div class="temp-card">
+          <h3>Today</h3>
+          <img src="assets/some_rain.png" alt="some rain" />
+          <p>some rain</p>
+          <div class="high-low-container">
+            <p class="high-temp">0°</p>
+            <p class="low-temp">0°</p>
+          </div>
+        </div>
+        <div class="temp-card">
+          <h3>Tomorrow</h3>
+          <img src="assets/some_sun.png" alt="some sun" />
+          <p>some sun</p>
+          <div class="high-low-container">
+            <p class="high-temp">0°</p>
+            <p class="low-temp">0°</p>
+          </div>
+        </div>
+        <div class="temp-card">
+          <h3>Friday</h3>
+          <img src="assets/some_clouds.png" alt="some clouds" />
+          <p>some clouds</p>
+          <div class="high-low-container">
+            <p class="high-temp">0°</p>
+            <p class="low-temp">0°</p>
+          </div>
+        </div>
+        <div class="temp-card">
+          <h3>Saturday</h3>
+          <img src="assets/some_sun.png" alt="some " />
+          <p>some sun</p>
+          <div class="high-low-container">
+            <p class="high-temp">0°</p>
+            <p class="low-temp">0°</p>
+          </div>
+        </div>
+      </div>
+      <div class="cookie-alert">
+        <img src="assets/cookie.png" alt="cookie img" />
+        <div class="cookie-alert-details">
+          <h2>Stop! Cookie Time</h2>
+          <p>
+            We use cookies (sadly not the edible ones) to personalize content
+            and ads, to provide social media features and to analyse our
+            traffic. <a href="#">Read more...</a>
+          </p>
+        </div>
+        <button id="cookieBtn">I Accept</button>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

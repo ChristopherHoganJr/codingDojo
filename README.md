@@ -4,6 +4,18 @@
 
 ## Web Fundamentals
 
+**_6/30/2022_**
+
+- Calculator [challenge](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June30/calculator)
+- Pokemon API [notes](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June30/pokeapi)
+- APIs and AJAX lecture [notes](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June30/APIsAjax)
+- Morning Algo [practice](https://github.com/ChristopherHoganJr/codingDojo/blob/main/WebFundamentals/June30/morningAlgo.js)
+
+**_6/29/2022_**
+
+- Terminal [challenge](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June29) screenshots
+- Completed Array [challenge](https://github.com/ChristopherHoganJr/codingDojo/blob/main/WebFundamentals/June29/arrayChallenges.js)
+
 **_6/28/2022_**
 
 - Dojo Weather [assignment](https://github.com/ChristopherHoganJr/codingDojo/tree/main/WebFundamentals/June28/dojoWeather)

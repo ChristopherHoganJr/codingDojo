@@ -1,5 +1,6 @@
 var secondsHand = document.getElementById("seconds");
 var minutesHand = document.getElementById("minutes");
+var hoursHand = document.getElementById("hour");
 
 function getSecondsSinceStartOfDay() {
   return (
@@ -12,15 +13,9 @@ function getSecondsSinceStartOfDay() {
 setInterval(function () {
   var time = getSecondsSinceStartOfDay();
   // your code here
-  var secondsTime = (time % 60) * 6;
-  console.log("seconds: " + secondsTime);
-  secondsHand.style.transform = `rotate(${(time % 1000) * 6}deg)`;
+  secondsHand.style.transform = `rotate(${new Date().getSeconds() * 6}deg)`;
+  minutesHand.style.transform = `rotate(${new Date().getMinutes() * 6}deg)`;
+  hoursHand.style.transform = `rotate(${new Date().getHours() * 6}deg)`;
 }, 1000);
 
-setInterval(function () {
-  var time = getSecondsSinceStartOfDay();
-  console.log(time);
-  var minutesTime = (time % 600) * 6;
-  minutesHand.style.transform = `rotate(${(time % 60000) * 6}deg)`;
-  console.log("minutes time: " + minutesTime);
-}, 60000);
+console.log(new Date().getMinutes());

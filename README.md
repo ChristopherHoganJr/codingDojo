@@ -2,6 +2,22 @@
 
 ###### Timeline
 
+## Python
+
+### Fundamentals
+
+- Hello World [Assignment](https://github.com/ChristopherHoganJr/codingDojo/blob/main/python/fundamentals/fundamentals/hello_world.py)
+- For Loop Basic 1 [Assignment](https://github.com/ChristopherHoganJr/codingDojo/blob/main/python/fundamentals/fundamentals/for_loop_basic1.py)
+- Functions Basic I [Assignment](https://github.com/ChristopherHoganJr/codingDojo/blob/main/python/fundamentals/fundamentals/functions_basic_i.py)
+- Functions Basic II [Assignment](https://github.com/ChristopherHoganJr/codingDojo/blob/main/python/fundamentals/fundamentals/functions_basic_ii.py)
+- Recognize Python [Assignment](https://github.com/ChristopherHoganJr/codingDojo/blob/main/python/fundamentals/fundamentals/recognizePythonAssignment.py)
+
+### Introduction
+
+- Organizing [files](https://github.com/ChristopherHoganJr/codingDojo/blob/main/python/fundamentals/introduction/organizingFilesAssignment.png)
+- Testing Python [file](https://github.com/ChristopherHoganJr/codingDojo/blob/main/python/fundamentals/introduction/testing_python.py)
+- Testing Python [image](https://github.com/ChristopherHoganJr/codingDojo/blob/main/python/fundamentals/introduction/testingPythonAssignment.png)
+
 ## Web Fundamentals
 
 **_6/30/2022_**

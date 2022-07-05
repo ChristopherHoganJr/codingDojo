@@ -4,6 +4,8 @@
 
 ## Python
 
+- Python [Notes](https://github.com/ChristopherHoganJr/codingDojo/tree/main/python/notes/) Folder
+
 ### Fundamentals
 
 - Hello World [Assignment](https://github.com/ChristopherHoganJr/codingDojo/blob/main/python/fundamentals/fundamentals/hello_world.py)

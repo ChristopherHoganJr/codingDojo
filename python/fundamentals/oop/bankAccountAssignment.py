@@ -31,10 +31,10 @@ class BankAccount:
     def printBankAccounts(cls):
         print(cls.bankAccountsInfo)
 
-account01 = BankAccount(0.2, 30000)
-account02 = BankAccount(0.15, 100000)
+# account01 = BankAccount(0.2, 30000)
+# account02 = BankAccount(0.15, 100000)
 
-account01.deposit(15000).deposit(20000).deposit(10000).withdraw(30000).yield_interest().display_account_info()
-account02.deposit(2500).deposit(3000).withdraw(1000).withdraw(1000).withdraw(500).withdraw(600).yield_interest().display_account_info()
+# account01.deposit(15000).deposit(20000).deposit(10000).withdraw(30000).yield_interest().display_account_info()
+# account02.deposit(2500).deposit(3000).withdraw(1000).withdraw(1000).withdraw(500).withdraw(600).yield_interest().display_account_info()
 
-BankAccount.printBankAccounts()
+# BankAccount.printBankAccounts()

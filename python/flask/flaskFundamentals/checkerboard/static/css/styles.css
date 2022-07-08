@@ -1,0 +1,19 @@
+.checkboard {
+    width: 100%;
+    
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+.checkerbox {
+    height: 50px;
+    width: 50px;
+    background: blue;
+}
+.checkerbox.even:nth-child(even) {
+    background: red;
+}
+.checkerbox.odd:nth-child(odd) {
+    background: red;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dojo Survey - Results</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="w-50 d-block mx-auto mt-5 border border-dark p-3">
+      <h2>Dojo Survey - Results</h2>
+      <div class="mb-3 mt-3 d-flex justify-content-between">
+        <h5>Your Name:</h5>
+        <p>{{stats.userName}}</p>
+      </div>
+      <div class="mb-3 d-flex justify-content-between">
+        <h5>Dojo Location:</h5>
+        <p>{{stats.dojoLocation}}</p>
+      </div>
+      <div class="mb-3 d-flex justify-content-between">
+        <h5>Favorite Language:</h5>
+        <p>{{stats.favLanguage}}</p>
+      </div>
+      <div class="mb-3 d-flex flex-column justify-content-between">
+        <h5>Comments:</h5>
+        <p>{{stats.comments}}</p>
+      </div>
+      <div class="mb-3 d-flex justify-content-end">
+        <a href="{{ url_for('home') }}"><button>Submit</button></a>
+      </div>
+    </div>
+  </body>
+</html>

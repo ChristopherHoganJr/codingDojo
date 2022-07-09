@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <form action="/sundaes/submit" method="post" class="w-50 d-block mx-auto">
+      <h1>Make a sunday</h1>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Flavor:</label>
+        <input
+          type="text"
+          class="form-control"
+          name="flavor"
+          placeholder="vanilla, chocolate, etc"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="name" class="form-label">Name:</label>
+        <input
+          type="text"
+          class="form-control"
+          name="name"
+          placeholder="Name"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="scoops" class="form-label">Scoops:</label>
+        <input
+          type="text"
+          class="form-control"
+          name="scoops"
+          placeholder="Scoop #"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="topping1">First Topping: </label>
+        <select name="topping1" id="" class="form-select">
+          <option value="caramel">caramel</option>
+          <option value="chocolate syrup">chocolate syrup</option>
+          <option value="rainbow spranks">rainbow spranks</option>
+          <option value="banana slices">banana slices</option>
+          <option value="chopped nuts">chopped nuts</option>
+          <option value="cherries">cherries</option>
+          <option value="rainbow jimmies">rainbow jimmies</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="topping2">Second Topping: </label>
+        <select name="topping2" id="" class="form-select">
+          <option value="caramel">caramel</option>
+          <option value="chocolate syrup">chocolate syrup</option>
+          <option value="rainbow spranks">rainbow spranks</option>
+          <option value="banana slices">banana slices</option>
+          <option value="chopped nuts">chopped nuts</option>
+          <option value="cherries">cherries</option>
+          <option value="rainbow jimmies">rainbow jimmies</option>
+        </select>
+      </div>
+
+      <input type="submit" class="btn btn-primary btn-lg" />
+    </form>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

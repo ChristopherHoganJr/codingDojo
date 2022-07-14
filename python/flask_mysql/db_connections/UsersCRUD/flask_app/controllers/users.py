@@ -48,7 +48,7 @@ def submit_edit(id):
         'id': id
     }
     User.update_user(data)
-    return redirect('/users')
+    return redirect(f'/users/{id}')
 
 @app.route('/users/delete/<id>')
 def delete_user(id):

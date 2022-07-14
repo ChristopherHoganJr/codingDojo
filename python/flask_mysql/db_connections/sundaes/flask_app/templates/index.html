@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>page here</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="border-bottom d-flex justify-content-around p-3">
+      <h1>Sundae Time</h1>
+      <a href="/sundaes/create" class="btn btn-primary">Create</a>
+    </nav>
+    {% for sundae in all_sundaes %}
+    <h2>{{sundae.flavor}}, {{sundae.sauce}}, {{sundae.topping1}}</h2>
+    {% endfor %}
+  </body>
+</html>

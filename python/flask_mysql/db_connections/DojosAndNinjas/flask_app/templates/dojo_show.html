@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dojo Show</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="row">
+      <div class="col">
+        <h2>{{dojo_info[0].name}}</h2>
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">First_name</th>
+              <th scope="col">Last Name</th>
+              <th scope="col">Age</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for dojo in dojo_info %}
+            <tr>
+              <th>{{dojo.first_name}}</th>
+              <td>{{dojo.last_name}}</td>
+              <td>{{dojo.age}}</td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        <a href="/dojos">Home</a>
+      </div>
+    </div>
+  </body>
+</html>

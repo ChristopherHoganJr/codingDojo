@@ -31,6 +31,12 @@ class Validator:
         query = 'DELETE FROM emails WHERE id = %(id)s'
         return connectToMySQL('email_validation').query_db(query,data)
 
+    @classmethod
+    def check_email(cls, data):
+        query = 'SELECT * FROM emails WHERE email = %(email)s;'
+        results = connectToMySQL('email_validation').query_db(query, data)
+        return results
+
     @staticmethod
     def validate_email(email):
         is_valid = True

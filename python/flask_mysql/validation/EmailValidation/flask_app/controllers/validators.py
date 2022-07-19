@@ -1,5 +1,5 @@
 from flask_app import app
-from flask import render_template, redirect, session, request
+from flask import render_template, redirect, session, request, flash
 from flask_app.models.validator import Validator
 
 @app.route('/')
@@ -13,8 +13,13 @@ def add_email():
     data = {
         'email': request.form['email']
     }
-    Validator.add(data)
-    return redirect('/success')
+    result = Validator.check_email(data)
+    if len(result) < 1:
+        Validator.add(data)
+        return redirect('/success')
+    else:
+        flash('That email already exists')
+        return redirect('/')
 
 @app.route('/success')
 def success():

@@ -17,40 +17,37 @@
     <div class="container">
       <div class="row">
         <div class="col d-flex justify-content-between align-items-center">
-          <h1>Welcome, USERNAME</h1>
+          <h1>Welcome, {{user_in_db.first_name}} {{user_in_db.last_name}}</h1>
           <div class="links d-flex gap-5">
-            <a href="#">back to recipes</a>
-            <a href="#">logout</a>
+            <a href="/recipes">back to recipes</a>
+            <a href="/">logout</a>
           </div>
         </div>
       </div>
       <div class="row my-4">
         <div class="col d-flex align-items-end justify-content-between">
-          <h2>RECIPE NAME</h2>
-          <p>Posted by: POST_CREATOR</p>
+          <h2>{{one_recipe.name}}</h2>
+          <p>Posted by: {{one_recipe.first_name}} {{one_recipe.last_name}}</p>
         </div>
       </div>
       <div class="row border border-3 border-dark p-3">
         <div class="mb-3 d-flex">
           <p class="w-25">Description:</p>
-          <div class="w-75">Lorem ipsum dolor sit amet consectetur.</div>
+          <div class="w-75">{{one_recipe.recipe_description}}</div>
         </div>
         <div class="mb-3 d-flex">
           <p class="w-25">Under 30 Minutes?</p>
-          <div class="w-75">Yes</div>
+          <div class="w-75">{{one_recipe.under_30}}</div>
         </div>
         <div class="mb-3 d-flex">
           <p class="w-25">Instructions:</p>
-          <div class="w-75">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Exercitationem laudantium, ipsam id facere, sit et nobis laboriosam,
-            ipsum dolor quia sint cupiditate maxime porro architecto magnam!
-            Dolores, enim! Perferendis, error.
-          </div>
+          <div class="w-75">{{one_recipe.recipe_instructions}}</div>
         </div>
         <div class="mb-3 d-flex">
           <p class="w-25">Date Made:</p>
-          <div class="w-75">July 19, 2022</div>
+          <div class="w-75">
+            {{ one_recipe.recipe_date.strftime('%d/%m/%Y') }}
+          </div>
         </div>
       </div>
     </div>

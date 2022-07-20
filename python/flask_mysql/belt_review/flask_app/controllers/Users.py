@@ -24,7 +24,6 @@ def create_new_user():
         return redirect('/')
     else:
         pw_hash = bcrypt.generate_password_hash(request.form['password'])
-        print(pw_hash)
         data = {
             'first_name': request.form['first_name'],
             'last_name': request.form['last_name'],
@@ -32,7 +31,6 @@ def create_new_user():
             'password': pw_hash
         }
     user_id = User.create_new_user(data)
-    print(f'User Added with id of {user_id}!')
     session['user_id'] = user_id
     return redirect('/recipes')
 

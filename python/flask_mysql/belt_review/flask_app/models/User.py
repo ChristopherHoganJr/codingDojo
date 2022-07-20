@@ -26,7 +26,6 @@ class User:
     def check_email_db(cls,data):
         query = 'SELECT * FROM user WHERE email = %(email)s;'
         results = connectToMySQL('recipes_assignment').query_db(query, data)
-        print('im checking')
         return results
 
     @classmethod

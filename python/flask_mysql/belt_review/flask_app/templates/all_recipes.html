@@ -15,7 +15,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>Welcome, {{user_in_db.first_name}}</h1>
+      <h1>Welcome, {{user_in_db.first_name}} {{user_in_db.last_name}}</h1>
       <div class="row">
         <div class="col d-flex align-items-center justify-content-between">
           <h2>All posted recipes:</h2>
@@ -41,7 +41,13 @@
                 <td>{{recipe.name}}</td>
                 <td>{{recipe.under_30}}</td>
                 <td>{{recipe.first_name}}</td>
-                <td>ACTIONS</td>
+                <td>
+                  <a href="/recipes/show/{{recipe.recipe_id}}">view recipe</a>
+                  {% if session['user_id'] == recipe.id%} |
+                  <a href="/recipes/edit/{{recipe.recipe_id}}">edit</a> |
+                  <a href="/recipes/delete/{{recipe.recipe_id}}">delete</a>
+                  {% endif %}
+                </td>
               </tr>
               {% endfor %}
             </tbody>

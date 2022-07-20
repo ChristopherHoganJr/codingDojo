@@ -23,19 +23,19 @@ def new_recipe():
 def add_new_recipe():
     if 'user_id' not in session:
         return redirect('/')
-    if not Recipe.validate_form(request.form):
-        return redirect('/recipes/new')
-
     user_in_db = User.get_one_by_id({'id':session['user_id']})
-    print(user_in_db)
-
     data = {
         'name':request.form['name'],
         'description':request.form['description'],
         'instructions':request.form['instructions'],
         'date':request.form['date'],
-        'under_30':request.form['under_30'],
+        'under_30':request.form.getlist('under_30'),
         'user_id':user_in_db.id
     }
-    Recipe.create_new_recipe(data)    
+    if not Recipe.validate_recipe(data):
+        return redirect('/recipes/new')
+
+
+    
+    # Recipe.create_new_recipe(data)    
     return redirect('/recipes')

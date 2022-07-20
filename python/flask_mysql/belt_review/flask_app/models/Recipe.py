@@ -1,4 +1,3 @@
-from asyncio.windows_events import NULL
 from flask_app.config.mysqlconnection import connectToMySQL
 from flask_app.models.User import User
 from flask_app import app
@@ -50,7 +49,7 @@ class Recipe:
         return connectToMySQL('recipes_assignment').query_db(query, data)
 
     @staticmethod
-    def validate_form(data):
+    def validate_recipe(data):
         is_valid = True
         if len(data['name']) < 3 and len(data['name']) <= 255:
             flash('Name needs to be at least 3 characters')
@@ -61,8 +60,8 @@ class Recipe:
         if len(data['instructions']) < 3 and len(data['instructions']) <= 255:
             flash('Instructions needs to be at least 3 characters')
             is_valid = False
-        if data['under_30'] != 'checked':
-            flash('You must select if it takes more or less than 30 minutes')
+        if data['under_30'] != 'Yes' or data['under_30'] != 'No':
+            flash('You need to select a time')
             is_valid = False
         if len(data['date']) < 3:
             flash('You must select a date')

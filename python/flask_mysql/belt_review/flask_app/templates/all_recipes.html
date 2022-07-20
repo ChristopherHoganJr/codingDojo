@@ -15,12 +15,12 @@
   </head>
   <body>
     <div class="container">
-      <h1>Welcome, USERNAME</h1>
+      <h1>Welcome, {{user_in_db.first_name}}</h1>
       <div class="row">
         <div class="col d-flex align-items-center justify-content-between">
           <h2>All posted recipes:</h2>
           <div class="links d-flex gap-5">
-            <a href="#">+ Create</a> <a href="#">Logout</a>
+            <a href="/recipes/new">+ Create</a> <a href="/">Logout</a>
           </div>
         </div>
       </div>
@@ -36,51 +36,14 @@
               </tr>
             </thead>
             <tbody>
+              {% for recipe in all_recipes %}
               <tr>
-                <td>Spaghetti</td>
-                <td>Under</td>
-                <td>Alana</td>
-                <td>
-                  <a href="#">view recipe</a> | <a href="#">edit</a> |
-                  <a href="#">delete</a>
-                </td>
+                <td>{{recipe.name}}</td>
+                <td>{{recipe.under_30}}</td>
+                <td>{{recipe.first_name}}</td>
+                <td>ACTIONS</td>
               </tr>
-              <tr>
-                <td>Spaghetti</td>
-                <td>Under</td>
-                <td>Alana</td>
-                <td>
-                  <a href="#">view recipe</a> | <a href="#">edit</a> |
-                  <a href="#">delete</a>
-                </td>
-              </tr>
-              <tr>
-                <td>Spaghetti</td>
-                <td>Under</td>
-                <td>Alana</td>
-                <td>
-                  <a href="#">view recipe</a> | <a href="#">edit</a> |
-                  <a href="#">delete</a>
-                </td>
-              </tr>
-              <tr>
-                <td>Spaghetti</td>
-                <td>Under</td>
-                <td>Alana</td>
-                <td>
-                  <a href="#">view recipe</a> | <a href="#">edit</a> |
-                  <a href="#">delete</a>
-                </td>
-              </tr>
-              <tr>
-                <td>Spaghetti</td>
-                <td>Under</td>
-                <td>Alana</td>
-                <td>
-                  <a href="#">view recipe</a> | <a href="#">edit</a> |
-                  <a href="#">delete</a>
-                </td>
-              </tr>
+              {% endfor %}
             </tbody>
           </table>
         </div>

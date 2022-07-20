@@ -19,13 +19,18 @@
         <div class="col d-flex align-items-center justify-content-between">
           <h1>Add a New Recipe!</h1>
           <div class="links d-flex gap-5">
-            <a href="#">back to recipes</a>
-            <a href="#">logout</a>
+            <a href="/recipes">back to recipes</a>
+            <a href="/">logout</a>
           </div>
         </div>
       </div>
-      <div class="row">Flash Messages</div>
-      <form>
+      <div class="row">
+        {% with messages = get_flashed_messages() %} {% if messages %} {% for
+        message in messages %}
+        <p class="text-danger">{{message}}</p>
+        {% endfor %} {% endif %} {% endwith %}
+      </div>
+      <form action="/recipes/new/submit" method="post">
         <div class="row">
           <div class="col">
             <div class="mb-3">
@@ -43,10 +48,8 @@
           </div>
           <div class="col d-flex flex-column h-auto">
             <div class="mb-3">
-              <label for="date_made" class="form-label"
-                >Date Cooked/Made:</label
-              >
-              <input type="date" class="form-control" name="date_made" />
+              <label for="date" class="form-label">Date Cooked/Made:</label>
+              <input type="date" class="form-control" name="date" />
             </div>
             <div class="mb-3 d-flex flex-column h-100 justify-content-between">
               <p class="form-label">Under 30 minutes?</p>
@@ -55,7 +58,7 @@
                   <input
                     class="form-check-input"
                     type="checkbox"
-                    name="under_thirty"
+                    name="under_30"
                     id="under_thirty_yes"
                     value="Yes"
                   />
@@ -67,7 +70,7 @@
                   <input
                     class="form-check-input"
                     type="checkbox"
-                    name="under_thirty"
+                    name="under_30"
                     id="under_thirty_no"
                     value="No"
                   />

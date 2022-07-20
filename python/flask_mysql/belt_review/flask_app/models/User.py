@@ -15,6 +15,7 @@ class User:
         self.password = data['password']
         self.created_at = data['created_at']
         self.updated_at = data['updated_at']
+        self.recipes = []
 
     @classmethod
     def create_new_user(cls, data):
@@ -35,6 +36,12 @@ class User:
         if len(result) < 1:
             return False
         return cls(result[0])
+
+    @classmethod
+    def get_one_by_id(cls,data):
+        query = 'SELECT * FROM user WHERE id = %(id)s;'
+        results = connectToMySQL('recipes_assignment').query_db(query, data)
+        return cls(results[0])
 
     @staticmethod
     def validate_form(data):

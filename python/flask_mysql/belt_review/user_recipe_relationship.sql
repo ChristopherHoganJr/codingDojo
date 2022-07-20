@@ -37,32 +37,17 @@ CREATE TABLE IF NOT EXISTS `recipes_assignment`.`recipe` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(255) NULL,
   `description` VARCHAR(255) NULL,
-  `instructions` DATETIME NULL,
+  `instructions` TEXT NULL,
   `date` DATE NULL,
   `under_30` VARCHAR(255) NULL,
   `created_at` DATETIME NULL,
   `updated_at` DATETIME NULL,
-  PRIMARY KEY (`id`))
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `recipes_assignment`.`user_has_recipe`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `recipes_assignment`.`user_has_recipe` (
   `user_id` INT NOT NULL,
-  `recipe_id` INT NOT NULL,
-  PRIMARY KEY (`user_id`, `recipe_id`),
-  INDEX `fk_user_has_recipe_recipe1_idx` (`recipe_id` ASC) VISIBLE,
-  INDEX `fk_user_has_recipe_user_idx` (`user_id` ASC) VISIBLE,
-  CONSTRAINT `fk_user_has_recipe_user`
+  PRIMARY KEY (`id`),
+  INDEX `fk_recipe_user_idx` (`user_id` ASC) VISIBLE,
+  CONSTRAINT `fk_recipe_user`
     FOREIGN KEY (`user_id`)
     REFERENCES `recipes_assignment`.`user` (`id`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `fk_user_has_recipe_recipe1`
-    FOREIGN KEY (`recipe_id`)
-    REFERENCES `recipes_assignment`.`recipe` (`id`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;

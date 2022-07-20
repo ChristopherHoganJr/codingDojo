@@ -18,8 +18,16 @@
       <h1>Recipe Share</h1>
       <div class="row">
         <div class="col">
+          {% with messages = get_flashed_messages() %} {% if messages %} {% for
+          message in messages %}
+          <p class="text-danger">{{message}}</p>
+          {% endfor %} {% endif %} {% endwith %}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
           <h2>Register</h2>
-          <form action="">
+          <form action="/user/add" method="post">
             <div class="mb-3">
               <label for="first_name" class="form-label">First Name:</label>
               <input type="text" class="form-control" name="first_name" />
@@ -55,17 +63,18 @@
         </div>
         <div class="col">
           <h2>Log In</h2>
-          <form
-            action="
-            "
-          >
+          <form action="/users/login" method="post">
             <div class="mb-3">
               <label for="email" class="form-label">Email:</label>
               <input type="email" class="form-control" name="email" />
             </div>
             <div class="mb-3">
-              <label for="password" class="form-label">Password:</label>
-              <input type="password" class="form-control" name="password" />
+              <label for="login-password" class="form-label">Password:</label>
+              <input
+                type="password"
+                class="form-control"
+                name="login-password"
+              />
             </div>
             <input
               type="submit"
